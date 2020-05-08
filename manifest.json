@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Wiki TC",
+  "description": "I want Traditional Chinese on Wikipedia.",
+  "version": "0.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://zh.wikipedia.org/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
